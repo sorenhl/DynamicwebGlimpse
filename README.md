@@ -1,6 +1,6 @@
-# DynamicwebGlimpse
+# Combining Glimpse and Dynamicweb
 
-Hi everyone, thank you for a nice Dynamicweb Tech Conference 2015. In this repository you find the files I used, as promised. If you have any questions or suggestions let me know.
+Hi everyone, thank you for a nice Dynamicweb Tech Conference 2015. In this repository you find the files I used for my presentation and i have also written a little guide below. If you have any questions or suggestions let me know.
 
 ## Installing Glimpse
 Note that the entire Web.config is included on GitHub
