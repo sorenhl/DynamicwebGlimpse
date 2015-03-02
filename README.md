@@ -28,7 +28,8 @@ Note that the entire Web.config is included on GitHub
 ```xml
 <add key="Glimpse:DisableAsyncSupport" value="true" />
 ```
-4. Add your own Glimpse Security Policy (see OurSecurityPolicy.cs as an example)
+4. If you use an older version of Dynamicweb you may need to override Global.asax with the committed GlimpseHttpApplication.cs.
+5. Add your own Glimpse Security Policy (see OurSecurityPolicy.cs as an example)
 
 ## Using glimpse with NLog
 All you have to do here is to install [Glimpse.NLog](http://www.nuget.org/packages/Glimpse.NLog/) and everything that hits NLog is shown. The advantage is also that you do not have to add any rules or targets in NLog for this behaviour. Note that you should not update to the newest Common.Logging as there are some compatability issues as Dynamicweb currently uses the Common.Logging version 2.*.
